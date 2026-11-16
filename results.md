@@ -267,3 +267,12 @@ The broader lesson is that **effective recruitment advertising account managemen
 Monte Carlo simulation can help evaluate uncertainty and compare budget alternatives, but account managers must also consider job posting quality, application experience, and employer needs before recommending additional spending.
 
 The goal is not simply to spend more advertising dollars. It is to generate meaningful application volume efficiently while supporting the employer's open positions.
+## Project Purpose
+
+The primary goal of this project was to demonstrate how **Monte Carlo simulation can be applied to real-world business decisions** using AI-assisted Python.
+
+Rather than attempting to predict actual Indeed campaign performance, the simulation explores how uncertainty in CPC, application conversion, and budget allocation can influence recruitment advertising outcomes.
+
+By running **1.8 million simulated campaign months across 36 scenarios**, the project demonstrates how Monte Carlo methods can compare strategies, evaluate risk, and support data-driven recommendations.
+
+Ultimately, this project combines my background in Ad-Tech account management with AI-assisted coding to explore how quantitative modeling can inform practical marketing decisions.
