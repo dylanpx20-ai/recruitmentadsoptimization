@@ -246,31 +246,19 @@ For that reason, this project focuses on **advertising performance and applicant
 
 ---
 
-## Visualizations
+## Simulation Results
 
-The Python script generates five PNG charts:
+The simulation evaluates **36 scenarios**, combining three CPC environments, three monthly budget levels, and four campaign management strategies.
 
-- `01_pacing_low.png` — 30-day budget pacing in the low-CPC environment
-- `01_pacing_moderate.png` — 30-day budget pacing in the moderate-CPC environment
-- `01_pacing_high.png` — 30-day budget pacing in the high-CPC environment
-- `02_joint_success_comparison.png` — Comparison of pacing and coverage success probabilities
-- `03_budget_alternatives.png` — Median applications across budget alternatives
+Each scenario includes 50,000 Monte Carlo iterations, totaling **1.8 million simulated campaign months** completed in 137.8 seconds using Google Colab.
 
-These visualizations help explain how spending behavior and application outcomes change under different assumptions.
+### Full Results
 
-## Generated Datasets
+The complete 36-scenario comparison, including application volume, campaign pacing, cost efficiency, job-level coverage, and final budget recommendations, is documented in **[RESULTS.md](RESULTS.md)**.
 
-The simulation also exports four CSV files:
+The analysis includes recommendations to reduce, maintain, or increase the monthly advertising budget under different CPC conditions.
 
-| File | Contents |
-|---|---|
-| `scenario_summary.csv` | Scenario-level application, cost, pacing, and coverage statistics |
-| `daily_pacing.csv` | Average daily and cumulative spending by scenario |
-| `role_level_results.csv` | Job-category-level spending and application outcomes |
-| `budget_recommendations.csv` | Final budget decisions and supporting explanations |
-
-Together, these datasets support further analysis and reproducibility.
-
+Four CSV datasets are also generated, containing scenario summaries, daily pacing, role-level performance, and budget recommendations for further analysis and reproducibility.
 ---
 
 ## Running the Simulation
